@@ -1,0 +1,305 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="matrix_8cpp" kind="file" language="C++">
+    <compoundname>matrix.cpp</compoundname>
+    <includes refid="matrix_8h" local="yes">matrix.h</includes>
+    <includes local="no">iostream</includes>
+    <includes local="no">stdexcept</includes>
+    <incdepgraph>
+      <node id="2">
+        <label>matrix.h</label>
+        <link refid="matrix_8h"/>
+      </node>
+      <node id="1">
+        <label>src/matrix.cpp</label>
+        <link refid="matrix_8cpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>iostream</label>
+      </node>
+      <node id="4">
+        <label>stdexcept</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="matrix_8cpp_1a00b3eed9347d1300084aa9b4b59faa14" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="struct_matrix" kindref="compound">Matrix</ref></type>
+        <definition>Matrix create_matrix</definition>
+        <argsstring>(int rows, int cols)</argsstring>
+        <name>create_matrix</name>
+        <param>
+          <type>int</type>
+          <declname>rows</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>cols</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/matrix.cpp" line="6" column="8" bodyfile="src/matrix.cpp" bodystart="6" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="function" id="matrix_8cpp_1aeb634f45f24e14880fefdc366918b590" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void free_matrix</definition>
+        <argsstring>(Matrix &amp;m)</argsstring>
+        <name>free_matrix</name>
+        <param>
+          <type><ref refid="struct_matrix" kindref="compound">Matrix</ref> &amp;</type>
+          <declname>m</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/matrix.cpp" line="21" column="6" bodyfile="src/matrix.cpp" bodystart="21" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="matrix_8cpp_1ae8da74aa2055db4e0da75ac0c0be8518" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void print_matrix</definition>
+        <argsstring>(const Matrix &amp;m)</argsstring>
+        <name>print_matrix</name>
+        <param>
+          <type>const <ref refid="struct_matrix" kindref="compound">Matrix</ref> &amp;</type>
+          <declname>m</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/matrix.cpp" line="33" column="6" bodyfile="src/matrix.cpp" bodystart="33" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="matrix_8cpp_1a9014473cbaf4b0b77b3d5d2a0bf4d670" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="struct_matrix" kindref="compound">Matrix</ref></type>
+        <definition>Matrix matrix_add</definition>
+        <argsstring>(const Matrix &amp;a, const Matrix &amp;b)</argsstring>
+        <name>matrix_add</name>
+        <param>
+          <type>const <ref refid="struct_matrix" kindref="compound">Matrix</ref> &amp;</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="struct_matrix" kindref="compound">Matrix</ref> &amp;</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/matrix.cpp" line="49" column="8" bodyfile="src/matrix.cpp" bodystart="49" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="matrix_8cpp_1a7ecabc053e7625ca710f1e822e682262" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="struct_matrix" kindref="compound">Matrix</ref></type>
+        <definition>Matrix matrix_multiply</definition>
+        <argsstring>(const Matrix &amp;a, const Matrix &amp;b)</argsstring>
+        <name>matrix_multiply</name>
+        <param>
+          <type>const <ref refid="struct_matrix" kindref="compound">Matrix</ref> &amp;</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="struct_matrix" kindref="compound">Matrix</ref> &amp;</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/matrix.cpp" line="63" column="8" bodyfile="src/matrix.cpp" bodystart="63" bodyend="77"/>
+      </memberdef>
+      <memberdef kind="function" id="matrix_8cpp_1a62655b50abbde9cca2f62a834676547e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="struct_matrix" kindref="compound">Matrix</ref></type>
+        <definition>Matrix matrix_transpose</definition>
+        <argsstring>(const Matrix &amp;m)</argsstring>
+        <name>matrix_transpose</name>
+        <param>
+          <type>const <ref refid="struct_matrix" kindref="compound">Matrix</ref> &amp;</type>
+          <declname>m</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/matrix.cpp" line="80" column="8" bodyfile="src/matrix.cpp" bodystart="80" bodyend="88"/>
+      </memberdef>
+      <memberdef kind="function" id="matrix_8cpp_1a4d3f15b66cade2c0be79f744e8ae8dc4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="struct_matrix" kindref="compound">Matrix</ref></type>
+        <definition>Matrix matrix_from_array</definition>
+        <argsstring>(const double *data, int rows, int cols)</argsstring>
+        <name>matrix_from_array</name>
+        <param>
+          <type>const double *</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>rows</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>cols</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/matrix.cpp" line="91" column="8" bodyfile="src/matrix.cpp" bodystart="91" bodyend="99"/>
+      </memberdef>
+      <memberdef kind="function" id="matrix_8cpp_1a2c46d71308dfc4792c9918aea5c9214d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double matrix_sum</definition>
+        <argsstring>(const Matrix &amp;m)</argsstring>
+        <name>matrix_sum</name>
+        <param>
+          <type>const <ref refid="struct_matrix" kindref="compound">Matrix</ref> &amp;</type>
+          <declname>m</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/matrix.cpp" line="101" column="8" bodyfile="src/matrix.cpp" bodystart="101" bodyend="109"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;<ref refid="matrix_8h" kindref="compound">matrix.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;iostream&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdexcept&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Создание<sp/>матрицы<sp/>заданного<sp/>размера</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><ref refid="struct_matrix" kindref="compound">Matrix</ref><sp/><ref refid="matrix_8cpp_1a00b3eed9347d1300084aa9b4b59faa14" kindref="member">create_matrix</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>rows,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>cols)<sp/>{</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(rows<sp/>&lt;=<sp/>0<sp/>||<sp/>cols<sp/>&lt;=<sp/>0)<sp/>{</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">throw</highlight><highlight class="normal"><sp/>std::invalid_argument(</highlight><highlight class="stringliteral">&quot;Matrix<sp/>dimensions<sp/>must<sp/>be<sp/>positive&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct_matrix" kindref="compound">Matrix</ref><sp/>mat;</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/>mat.<ref refid="struct_matrix_1a994b1578e9a64d5cc3c4d0b11d7532a9" kindref="member">rows</ref><sp/>=<sp/>rows;</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/>mat.<ref refid="struct_matrix_1a2067cc7ed367cc427cd869b3e1074ad7" kindref="member">cols</ref><sp/>=<sp/>cols;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/>mat.<ref refid="struct_matrix_1a650e1452576e2c59a410eebd79331560" kindref="member">data</ref><sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*[rows];</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>rows;<sp/>i++)<sp/>{</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>mat.<ref refid="struct_matrix_1a650e1452576e2c59a410eebd79331560" kindref="member">data</ref>[i]<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">[cols]();<sp/></highlight><highlight class="comment">//<sp/>()<sp/>инициализирует<sp/>нулями</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>mat;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Освобождение<sp/>памяти<sp/>матрицы</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="matrix_8cpp_1aeb634f45f24e14880fefdc366918b590" kindref="member">free_matrix</ref>(<ref refid="struct_matrix" kindref="compound">Matrix</ref>&amp;<sp/>m)<sp/>{</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(m.<ref refid="struct_matrix_1a650e1452576e2c59a410eebd79331560" kindref="member">data</ref><sp/>==<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">)<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>m.<ref refid="struct_matrix_1a994b1578e9a64d5cc3c4d0b11d7532a9" kindref="member">rows</ref>;<sp/>i++)<sp/>{</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal">[]<sp/>m.<ref refid="struct_matrix_1a650e1452576e2c59a410eebd79331560" kindref="member">data</ref>[i];</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal">[]<sp/>m.<ref refid="struct_matrix_1a650e1452576e2c59a410eebd79331560" kindref="member">data</ref>;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/>m.<ref refid="struct_matrix_1a650e1452576e2c59a410eebd79331560" kindref="member">data</ref><sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/>m.<ref refid="struct_matrix_1a994b1578e9a64d5cc3c4d0b11d7532a9" kindref="member">rows</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/>m.<ref refid="struct_matrix_1a2067cc7ed367cc427cd869b3e1074ad7" kindref="member">cols</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="30"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Печать<sp/>матрицы</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="matrix_8cpp_1ae8da74aa2055db4e0da75ac0c0be8518" kindref="member">print_matrix</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="struct_matrix" kindref="compound">Matrix</ref>&amp;<sp/>m)<sp/>{</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(m.<ref refid="struct_matrix_1a650e1452576e2c59a410eebd79331560" kindref="member">data</ref><sp/>==<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">)<sp/>{</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;[Empty<sp/>matrix]&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>std::endl;</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/>std::cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;Matrix<sp/>&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>m.<ref refid="struct_matrix_1a994b1578e9a64d5cc3c4d0b11d7532a9" kindref="member">rows</ref><sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;x&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>m.<ref refid="struct_matrix_1a2067cc7ed367cc427cd869b3e1074ad7" kindref="member">cols</ref><sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;:&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>std::endl;</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>m.<ref refid="struct_matrix_1a994b1578e9a64d5cc3c4d0b11d7532a9" kindref="member">rows</ref>;<sp/>i++)<sp/>{</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;[<sp/>&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>j<sp/>=<sp/>0;<sp/>j<sp/>&lt;<sp/>m.<ref refid="struct_matrix_1a2067cc7ed367cc427cd869b3e1074ad7" kindref="member">cols</ref>;<sp/>j++)<sp/>{</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::cout<sp/>&lt;&lt;<sp/>m.<ref refid="struct_matrix_1a650e1452576e2c59a410eebd79331560" kindref="member">data</ref>[i][j]<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;<sp/>&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;]&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>std::endl;</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="46"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Сложение<sp/>двух<sp/>матриц</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><ref refid="struct_matrix" kindref="compound">Matrix</ref><sp/><ref refid="matrix_8cpp_1a9014473cbaf4b0b77b3d5d2a0bf4d670" kindref="member">matrix_add</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="struct_matrix" kindref="compound">Matrix</ref>&amp;<sp/>a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="struct_matrix" kindref="compound">Matrix</ref>&amp;<sp/>b)<sp/>{</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(a.<ref refid="struct_matrix_1a994b1578e9a64d5cc3c4d0b11d7532a9" kindref="member">rows</ref><sp/>!=<sp/>b.<ref refid="struct_matrix_1a994b1578e9a64d5cc3c4d0b11d7532a9" kindref="member">rows</ref><sp/>||<sp/>a.<ref refid="struct_matrix_1a2067cc7ed367cc427cd869b3e1074ad7" kindref="member">cols</ref><sp/>!=<sp/>b.<ref refid="struct_matrix_1a2067cc7ed367cc427cd869b3e1074ad7" kindref="member">cols</ref>)<sp/>{</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">throw</highlight><highlight class="normal"><sp/>std::invalid_argument(</highlight><highlight class="stringliteral">&quot;Matrix<sp/>dimensions<sp/>must<sp/>match<sp/>for<sp/>addition&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct_matrix" kindref="compound">Matrix</ref><sp/>result<sp/>=<sp/><ref refid="matrix_8cpp_1a00b3eed9347d1300084aa9b4b59faa14" kindref="member">create_matrix</ref>(a.<ref refid="struct_matrix_1a994b1578e9a64d5cc3c4d0b11d7532a9" kindref="member">rows</ref>,<sp/>a.<ref refid="struct_matrix_1a2067cc7ed367cc427cd869b3e1074ad7" kindref="member">cols</ref>);</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>a.<ref refid="struct_matrix_1a994b1578e9a64d5cc3c4d0b11d7532a9" kindref="member">rows</ref>;<sp/>i++)<sp/>{</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>j<sp/>=<sp/>0;<sp/>j<sp/>&lt;<sp/>a.<ref refid="struct_matrix_1a2067cc7ed367cc427cd869b3e1074ad7" kindref="member">cols</ref>;<sp/>j++)<sp/>{</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>result.<ref refid="struct_matrix_1a650e1452576e2c59a410eebd79331560" kindref="member">data</ref>[i][j]<sp/>=<sp/>a.<ref refid="struct_matrix_1a650e1452576e2c59a410eebd79331560" kindref="member">data</ref>[i][j]<sp/>+<sp/>b.<ref refid="struct_matrix_1a650e1452576e2c59a410eebd79331560" kindref="member">data</ref>[i][j];</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>result;</highlight></codeline>
+<codeline lineno="60"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Умножение<sp/>матриц</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><ref refid="struct_matrix" kindref="compound">Matrix</ref><sp/><ref refid="matrix_8cpp_1a7ecabc053e7625ca710f1e822e682262" kindref="member">matrix_multiply</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="struct_matrix" kindref="compound">Matrix</ref>&amp;<sp/>a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="struct_matrix" kindref="compound">Matrix</ref>&amp;<sp/>b)<sp/>{</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(a.<ref refid="struct_matrix_1a2067cc7ed367cc427cd869b3e1074ad7" kindref="member">cols</ref><sp/>!=<sp/>b.<ref refid="struct_matrix_1a994b1578e9a64d5cc3c4d0b11d7532a9" kindref="member">rows</ref>)<sp/>{</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">throw</highlight><highlight class="normal"><sp/>std::invalid_argument(</highlight><highlight class="stringliteral">&quot;Number<sp/>of<sp/>columns<sp/>in<sp/>A<sp/>must<sp/>equal<sp/>number<sp/>of<sp/>rows<sp/>in<sp/>B&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct_matrix" kindref="compound">Matrix</ref><sp/>result<sp/>=<sp/><ref refid="matrix_8cpp_1a00b3eed9347d1300084aa9b4b59faa14" kindref="member">create_matrix</ref>(a.<ref refid="struct_matrix_1a994b1578e9a64d5cc3c4d0b11d7532a9" kindref="member">rows</ref>,<sp/>b.<ref refid="struct_matrix_1a2067cc7ed367cc427cd869b3e1074ad7" kindref="member">cols</ref>);</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>a.<ref refid="struct_matrix_1a994b1578e9a64d5cc3c4d0b11d7532a9" kindref="member">rows</ref>;<sp/>i++)<sp/>{</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>j<sp/>=<sp/>0;<sp/>j<sp/>&lt;<sp/>b.<ref refid="struct_matrix_1a2067cc7ed367cc427cd869b3e1074ad7" kindref="member">cols</ref>;<sp/>j++)<sp/>{</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>result.<ref refid="struct_matrix_1a650e1452576e2c59a410eebd79331560" kindref="member">data</ref>[i][j]<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>k<sp/>=<sp/>0;<sp/>k<sp/>&lt;<sp/>a.<ref refid="struct_matrix_1a2067cc7ed367cc427cd869b3e1074ad7" kindref="member">cols</ref>;<sp/>k++)<sp/>{</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>result.<ref refid="struct_matrix_1a650e1452576e2c59a410eebd79331560" kindref="member">data</ref>[i][j]<sp/>+=<sp/>a.<ref refid="struct_matrix_1a650e1452576e2c59a410eebd79331560" kindref="member">data</ref>[i][k]<sp/>*<sp/>b.<ref refid="struct_matrix_1a650e1452576e2c59a410eebd79331560" kindref="member">data</ref>[k][j];</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>result;</highlight></codeline>
+<codeline lineno="77"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Транспонирование<sp/>матрицы</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><ref refid="struct_matrix" kindref="compound">Matrix</ref><sp/><ref refid="matrix_8cpp_1a62655b50abbde9cca2f62a834676547e" kindref="member">matrix_transpose</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="struct_matrix" kindref="compound">Matrix</ref>&amp;<sp/>m)<sp/>{</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct_matrix" kindref="compound">Matrix</ref><sp/>result<sp/>=<sp/><ref refid="matrix_8cpp_1a00b3eed9347d1300084aa9b4b59faa14" kindref="member">create_matrix</ref>(m.<ref refid="struct_matrix_1a2067cc7ed367cc427cd869b3e1074ad7" kindref="member">cols</ref>,<sp/>m.<ref refid="struct_matrix_1a994b1578e9a64d5cc3c4d0b11d7532a9" kindref="member">rows</ref>);</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>m.<ref refid="struct_matrix_1a994b1578e9a64d5cc3c4d0b11d7532a9" kindref="member">rows</ref>;<sp/>i++)<sp/>{</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>j<sp/>=<sp/>0;<sp/>j<sp/>&lt;<sp/>m.<ref refid="struct_matrix_1a2067cc7ed367cc427cd869b3e1074ad7" kindref="member">cols</ref>;<sp/>j++)<sp/>{</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>result.<ref refid="struct_matrix_1a650e1452576e2c59a410eebd79331560" kindref="member">data</ref>[j][i]<sp/>=<sp/>m.<ref refid="struct_matrix_1a650e1452576e2c59a410eebd79331560" kindref="member">data</ref>[i][j];</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>result;</highlight></codeline>
+<codeline lineno="88"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Создание<sp/>матрицы<sp/>из<sp/>одномерного<sp/>массива</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><ref refid="struct_matrix" kindref="compound">Matrix</ref><sp/><ref refid="matrix_8cpp_1a4d3f15b66cade2c0be79f744e8ae8dc4" kindref="member">matrix_from_array</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>data,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>rows,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>cols)<sp/>{</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct_matrix" kindref="compound">Matrix</ref><sp/>result<sp/>=<sp/><ref refid="matrix_8cpp_1a00b3eed9347d1300084aa9b4b59faa14" kindref="member">create_matrix</ref>(rows,<sp/>cols);</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>rows;<sp/>i++)<sp/>{</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>j<sp/>=<sp/>0;<sp/>j<sp/>&lt;<sp/>cols;<sp/>j++)<sp/>{</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>result.<ref refid="struct_matrix_1a650e1452576e2c59a410eebd79331560" kindref="member">data</ref>[i][j]<sp/>=<sp/>data[i<sp/>*<sp/>cols<sp/>+<sp/>j];</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>result;</highlight></codeline>
+<codeline lineno="99"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Вычисление<sp/>суммы<sp/>всех<sp/>элементов<sp/>матрицы</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="101"><highlight class="normal"></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="matrix_8cpp_1a2c46d71308dfc4792c9918aea5c9214d" kindref="member">matrix_sum</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="struct_matrix" kindref="compound">Matrix</ref>&amp;<sp/>m)<sp/>{</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>sum<sp/>=<sp/>0.0;</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>m.<ref refid="struct_matrix_1a994b1578e9a64d5cc3c4d0b11d7532a9" kindref="member">rows</ref>;<sp/>i++)<sp/>{</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>j<sp/>=<sp/>0;<sp/>j<sp/>&lt;<sp/>m.<ref refid="struct_matrix_1a2067cc7ed367cc427cd869b3e1074ad7" kindref="member">cols</ref>;<sp/>j++)<sp/>{</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sum<sp/>+=<sp/>m.<ref refid="struct_matrix_1a650e1452576e2c59a410eebd79331560" kindref="member">data</ref>[i][j];</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>sum;</highlight></codeline>
+<codeline lineno="109"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="src/matrix.cpp"/>
+  </compounddef>
+</doxygen>

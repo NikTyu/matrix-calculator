@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.14.0" xml:lang="en-US">
+  <compound refid="struct_matrix" kind="struct"><name>Matrix</name>
+    <member refid="struct_matrix_1a650e1452576e2c59a410eebd79331560" kind="variable"><name>data</name></member>
+    <member refid="struct_matrix_1a994b1578e9a64d5cc3c4d0b11d7532a9" kind="variable"><name>rows</name></member>
+    <member refid="struct_matrix_1a2067cc7ed367cc427cd869b3e1074ad7" kind="variable"><name>cols</name></member>
+  </compound>
+  <compound refid="matrix_8h" kind="file"><name>matrix.h</name>
+    <member refid="matrix_8h_1a00b3eed9347d1300084aa9b4b59faa14" kind="function"><name>create_matrix</name></member>
+    <member refid="matrix_8h_1aeb634f45f24e14880fefdc366918b590" kind="function"><name>free_matrix</name></member>
+    <member refid="matrix_8h_1a9014473cbaf4b0b77b3d5d2a0bf4d670" kind="function"><name>matrix_add</name></member>
+    <member refid="matrix_8h_1a7ecabc053e7625ca710f1e822e682262" kind="function"><name>matrix_multiply</name></member>
+    <member refid="matrix_8h_1a62655b50abbde9cca2f62a834676547e" kind="function"><name>matrix_transpose</name></member>
+    <member refid="matrix_8h_1ae8da74aa2055db4e0da75ac0c0be8518" kind="function"><name>print_matrix</name></member>
+    <member refid="matrix_8h_1a4d3f15b66cade2c0be79f744e8ae8dc4" kind="function"><name>matrix_from_array</name></member>
+    <member refid="matrix_8h_1a2c46d71308dfc4792c9918aea5c9214d" kind="function"><name>matrix_sum</name></member>
+  </compound>
+  <compound refid="main_8cpp" kind="file"><name>main.cpp</name>
+    <member refid="main_8cpp_1ae66f6b31b5ad750f1fe042a706a4e3d4" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="matrix_8cpp" kind="file"><name>matrix.cpp</name>
+    <member refid="matrix_8cpp_1a00b3eed9347d1300084aa9b4b59faa14" kind="function"><name>create_matrix</name></member>
+    <member refid="matrix_8cpp_1aeb634f45f24e14880fefdc366918b590" kind="function"><name>free_matrix</name></member>
+    <member refid="matrix_8cpp_1ae8da74aa2055db4e0da75ac0c0be8518" kind="function"><name>print_matrix</name></member>
+    <member refid="matrix_8cpp_1a9014473cbaf4b0b77b3d5d2a0bf4d670" kind="function"><name>matrix_add</name></member>
+    <member refid="matrix_8cpp_1a7ecabc053e7625ca710f1e822e682262" kind="function"><name>matrix_multiply</name></member>
+    <member refid="matrix_8cpp_1a62655b50abbde9cca2f62a834676547e" kind="function"><name>matrix_transpose</name></member>
+    <member refid="matrix_8cpp_1a4d3f15b66cade2c0be79f744e8ae8dc4" kind="function"><name>matrix_from_array</name></member>
+    <member refid="matrix_8cpp_1a2c46d71308dfc4792c9918aea5c9214d" kind="function"><name>matrix_sum</name></member>
+  </compound>
+  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>include</name>
+  </compound>
+  <compound refid="dir_68267d1309a1af8e8297ef4c3efbcdba" kind="dir"><name>src</name>
+  </compound>
+</doxygenindex>

@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="struct_matrix" kind="struct" language="C++" prot="public">
+    <compoundname>Matrix</compoundname>
+    <includes refid="matrix_8h" local="no">matrix.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_matrix_1a650e1452576e2c59a410eebd79331560" prot="public" static="no" mutable="no">
+        <type>double **</type>
+        <definition>double** Matrix::data</definition>
+        <argsstring></argsstring>
+        <name>data</name>
+        <qualifiedname>Matrix::data</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/matrix.h" line="4" column="12" bodyfile="include/matrix.h" bodystart="4" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_matrix_1a994b1578e9a64d5cc3c4d0b11d7532a9" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Matrix::rows</definition>
+        <argsstring></argsstring>
+        <name>rows</name>
+        <qualifiedname>Matrix::rows</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/matrix.h" line="5" column="9" bodyfile="include/matrix.h" bodystart="5" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_matrix_1a2067cc7ed367cc427cd869b3e1074ad7" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Matrix::cols</definition>
+        <argsstring></argsstring>
+        <name>cols</name>
+        <qualifiedname>Matrix::cols</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/matrix.h" line="6" column="9" bodyfile="include/matrix.h" bodystart="6" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="include/matrix.h" line="3" column="1" bodyfile="include/matrix.h" bodystart="3" bodyend="7"/>
+    <listofallmembers>
+      <member refid="struct_matrix_1a2067cc7ed367cc427cd869b3e1074ad7" prot="public" virt="non-virtual"><scope>Matrix</scope><name>cols</name></member>
+      <member refid="struct_matrix_1a650e1452576e2c59a410eebd79331560" prot="public" virt="non-virtual"><scope>Matrix</scope><name>data</name></member>
+      <member refid="struct_matrix_1a994b1578e9a64d5cc3c4d0b11d7532a9" prot="public" virt="non-virtual"><scope>Matrix</scope><name>rows</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
