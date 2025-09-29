@@ -1,9 +1,10 @@
 #pragma once
+#include <iostream>
 
 struct Matrix {
-    double** data; // Указатель на двумерный массив
-    int rows;      // Количество строк
-    int cols;      // Количество столбцов
+    double** data;
+    int rows;
+    int cols;
 };
 
 // Базовые функции
@@ -17,4 +18,5 @@ Matrix matrix_transpose(const Matrix& m);
 void print_matrix(const Matrix& m);
 Matrix matrix_from_array(const double* data, int rows, int cols);
 
+// Индивидуальное задание: сумма элементов матрицы
 double matrix_sum(const Matrix& m);

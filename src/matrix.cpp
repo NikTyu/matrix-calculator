@@ -97,6 +97,7 @@ Matrix matrix_from_array(const double* data, int rows, int cols) {
     }
     return result;
 }
+
 // Вычисление суммы всех элементов матрицы
 double matrix_sum(const Matrix& m) {
     double sum = 0.0;
