@@ -35,9 +35,10 @@ int main() {
         std::cout << "\nTranspose of A:" << std::endl;
         print_matrix(E);
 
-        // Тестируем сумму элементов
-        double total_sum = matrix_sum(A);
-        std::cout << "\nSum of all elements in matrix A: " << total_sum << std::endl;
+        // Тестируем индивидуальное задание: случайная матрица
+        Matrix R = matrix_random(3, 3, -5.0, 5.0);
+        std::cout << "\nRandom 3x3 matrix in range [-5, 5]:" << std::endl;
+        print_matrix(R);
 
         // Освобождаем память (каждую матрицу только один раз!)
         free_matrix(A);
@@ -45,6 +46,7 @@ int main() {
         free_matrix(C);
         free_matrix(D);
         free_matrix(E);
+        free_matrix(R);
 
         std::cout << "\nAll operations completed successfully!" << std::endl;
     } catch (const std::exception& e) {
